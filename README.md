@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GitHub Portfolio
 
-## Getting Started
+Welcome to my personal GitHub portfolio! This project showcases my development work, GitHub activity, and other achievements in the software development field. It is built using Next.js and features smooth animations with Framer Motion for a modern and responsive experience.
 
-First, run the development server:
+![GitHub Portfolio Image](/public/porfolio.png)  <!-- Add image URL here -->
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **GitHub Stats:** Displays real-time GitHub contributions and statistics, including top languages used.
+- **Projects Gallery:** A showcase of my projects with descriptions, images, and direct links to the GitHub repositories.
+- **Responsive Design:** The site is fully responsive and optimized for desktop, tablet, and mobile views.
+- **Smooth Animations:** Framer Motion is used to add smooth animations to various sections of the website for a more engaging experience.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js:** React framework used for server-side rendering and static site generation.
+- **Tailwind CSS:** Utility-first CSS framework for fast and responsive design.
+- **Framer Motion:** For smooth animations.
+- **GitHub API:** For fetching user stats, languages, and contributions.
 
-## Learn More
+## Live Demo
 
-To learn more about Next.js, take a look at the following resources:
+Visit my live portfolio here: [GitHub Portfolio](https://your-live-portfolio-link)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/MuradEyvazli/github-portfolio.git
