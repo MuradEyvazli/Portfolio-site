@@ -1,0 +1,51 @@
+export const projects = [
+    {
+      id: 1,
+      title: 'Glamorize AI',
+      description: 'A virtual try-on platform built with React, Node.js, Next.js, MongoDB, and AI.',
+      image: '/assets/Glamorize.png',
+      githubLink: 'https://github.com/MuradEyvazli/GlamorizeAi',
+      about: 'Glamorize AI is an innovative platform that merges artificial intelligence with fashion, creating an unparalleled virtual try-on experience. Whether you are exploring your style, planning outfits, or discovering new trends, this platform is your ultimate destination for redefining personal fashion.',
+    },
+    {
+      id: 2,
+      title: 'Blog Platform',
+      description: 'Fitness tracking and Flexofy AI-based question-answer platform.',
+      image: '/assets/flexofy.png',
+      githubLink: 'https://github.com/MuradEyvazli/FlexofyAi',
+      about: 'Flexofy AI is a comprehensive fitness assistant designed to help users achieve their health and fitness goals. Whether you are looking for a tailored workout plan, diet recommendations, or a way to track your fitness journey, Flexofy AI is here to assist.',
+    },
+    {
+      id: 3,
+      title: 'Block Game',
+      description: '3D block-stacking game built with JavaScript.',
+      image: '/assets/BlockGame.png',
+      githubLink: 'https://github.com/MuradEyvazli/TowerBlockUpGame',
+      about: 'A fun and interactive 3D block-stacking game built with Three.js, GSAP, and vanilla JavaScript. The goal is to stack blocks as accurately as possible to score points. The game features responsive design and smooth animations for an engaging experience.',
+    },
+    {
+      id: 4,
+      title: 'Auto Trashers',
+      description: 'Car rental platform.',
+      image: '/assets/auto_trasher.png',
+      githubLink: 'https://github.com/MuradEyvazli/Auto_Trashers',
+      about: 'A cutting-edge car rental website built with TypeScript, Next.js, and Tailwind CSS for a seamless user experience.',
+    },
+    {
+      id: 5,
+      title: 'Virtual Try-On',
+      description: 'A platform to manage AZN exchange rates and allow users to fetch rates by date and currency.',
+      image: '/assets/umbrella.png',
+      githubLink: 'https://github.com/MuradEyvazli/azn-exchange-rates',
+      about: 'This project is designed to manage AZN exchange rates and allow users to fetch rates by date and currency. The project consists of frontend and backend parts.',
+    },
+    {
+      id: 6,
+      title: 'Vue.js Project',
+      description: 'A job tracking platform built with Vue.js.',
+      image: '/assets/Vuejs.png',
+      githubLink: 'https://github.com/MuradEyvazli/JobTrackingApp-Vuejs',
+      about: 'This project is my first Vue.js project. It is a job board platform built with Vue.js. Users can browse, add, and manage job listings, catering to developers looking for Vue.js-related jobs and employers seeking Vue.js developers.',
+    },
+  ];
+  

@@ -1,0 +1,23 @@
+/* app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ek stiller */
+body {
+  font-family: 'Inter', sans-serif;
+  /* 21st.dev benzeri minimal ve modern bir his vermek için margin/padding sıfırlama */
+  margin: 0;
+  padding: 0;
+}
+
+/* Gradient arka plan veya benzeri */
+.bg-gradient {
+  background: radial-gradient(circle at top, #16222a, #3a6073);
+  /* Yukarıdaki gradient, mavi tonlarda bir "radial" gradient örneği */
+}
+
+/* Küçük neon efektli bir hover örneği */
+.hover-neon:hover {
+  text-shadow: 0 0 5px #00f6ff, 0 0 10px #00f6ff, 0 0 20px #00f6ff;
+}
