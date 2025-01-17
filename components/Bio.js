@@ -81,13 +81,14 @@ export default function Bio() {
           viewport={{ once: true }}
         >
           <div className="w-[500px] h-[500px] relative rounded-full overflow-hidden shadow-xl border-2 border-cyan-500 ">
-            <Image
-              src="/assets/profilee.jpg"
-              alt="Murad Eyvazli"
-              fill
-              className="object-cover"
-              priority
-            />
+          <Image
+          src="/assets/profilee.jpg"
+          alt="Murad Eyvazli"
+          fill
+          className="object-cover w-full h-full rounded-full"
+  
+/>
+
           </div>
         </motion.div>
         

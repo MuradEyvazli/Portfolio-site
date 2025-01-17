@@ -2,32 +2,34 @@
 
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
-import Highlights from "@/components/Highlights";
-import GitHubStats from "@/components/GitHubStats";
-import Bio from "@/components/Bio";
-import Timeline from "@/components/Timeline";
 import { Globe } from "@/components/ui/globe";
 import Link from "next/link";
+import Highlights from "@/components/Highlights";
+import Bio from "@/components/Bio";
+import Timeline from "@/components/Timeline";
+import GitHubStats from "@/components/GitHubStats";
 
 export default function HomePage() {
   return (
     <main className="w-full">
+      {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-cyan-900 via-gray-900 to-black text-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col-reverse items-center justify-center md:flex-row md:justify-between">
+            {/* Left Side (Text) */}
             <motion.div
               className="text-center md:text-left mt-8 md:mt-0 md:w-1/2"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.7 }}
             >
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">
                 Merhaba, <br className="block md:hidden" />
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 to-cyan-500">
                   Ben Murad Eyvazli <span className="text-white">!</span>
                 </span>
               </h1>
-              <p className="text-base md:text-lg lg:text-sm text-gray-300 max-w-xl mb-8">
+              <p className="text-base sm:text-lg md:text-lg lg:text-sm text-gray-300 max-w-xl mb-8">
                 Frontend ve Backend projeleri geliştiren bir yazılım geliştiricisiyim. Kullanıcı deneyimine ve modern teknolojilere odaklanarak projelerimi hayata geçiriyorum.
               </p>
 
@@ -65,7 +67,7 @@ export default function HomePage() {
                     <FaGithub size={30} />
                   </motion.div>
                 </Link>
-                <Link href="https://www.linkedin.com/in/murad-eyvazli-4342492b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app&original_referer=https%3A%2F%2Fgithub.com%2F" target="_blank">
+                <Link href="https://www.linkedin.com/in/murad-eyvazli" target="_blank">
                   <motion.div
                     whileHover={{ scale: 1.2 }}
                     whileTap={{ scale: 0.9 }}
@@ -74,7 +76,7 @@ export default function HomePage() {
                     <FaLinkedin size={30} />
                   </motion.div>
                 </Link>
-                <Link href="https://www.instagram.com/murad.eyvzli?igsh=bnlzdnVsbGNiejJz&utm_source=qr" target="_blank">
+                <Link href="https://www.instagram.com/murad.eyvzli" target="_blank">
                   <motion.div
                     whileHover={{ scale: 1.2 }}
                     whileTap={{ scale: 0.9 }}
@@ -83,7 +85,7 @@ export default function HomePage() {
                     <FaInstagram size={30} />
                   </motion.div>
                 </Link>
-                <Link href="https://www.facebook.com/people/Murad-Eyvazli/pfbid034yi5jJHGh2bZs6fgQWtcAqgwuv7MSgVx5c59R5qmSmHzHPHpaTTNGr2xDvZ45Ka2l/" target="_blank">
+                <Link href="https://www.facebook.com/people/Murad-Eyvazli" target="_blank">
                   <motion.div
                     whileHover={{ scale: 1.2 }}
                     whileTap={{ scale: 0.9 }}
