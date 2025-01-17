@@ -10,7 +10,7 @@ import {features} from "../data/features";
 export default function Highlights() {
 
   return (
-    <section className="py-16 px-4 text-center bg-gray-900 text-white">
+    <section className="py-16 px-4 text-center bg-gradient-to-r from-cyan-900 via-gray-800 text-white">
       <motion.h2
         className="text-3xl md:text-4xl font-bold mb-6"
         initial={{ opacity: 0, y: -10 }}

@@ -80,15 +80,14 @@ export default function Bio() {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          <div className="w-[500px] h-[500px] relative rounded-full overflow-hidden shadow-xl border-2 border-cyan-500 ">
-          <Image
-          src="/assets/profilee.jpg"
-          alt="Murad Eyvazli"
-          fill
-          className="object-cover w-full h-full rounded-full"
-  
-/>
-
+          <div className="w-[400px] h-[400px] relative rounded-full overflow-hidden shadow-xl border-2 border-cyan-500 ">
+            <Image
+              src="/assets/profilee.jpg"
+              alt="Murad Eyvazli"
+              fill
+              className="object-cover"
+              priority
+            />
           </div>
         </motion.div>
         

@@ -13,7 +13,7 @@ export default function HomePage() {
   return (
     <main className="w-full">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-cyan-900 via-gray-900 to-black text-white py-16">
+      <section className="relative overflow-hidden  to-black text-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col-reverse items-center justify-center md:flex-row md:justify-between">
             {/* Left Side (Text) */}
