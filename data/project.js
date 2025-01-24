@@ -33,7 +33,7 @@ export const projects = [
     },
     {
       id: 5,
-      title: 'Virtual Try-On',
+      title: 'Azn-exchange',
       description: 'A platform to manage AZN exchange rates and allow users to fetch rates by date and currency.',
       image: '/assets/umbrella.png',
       githubLink: 'https://github.com/MuradEyvazli/azn-exchange-rates',
