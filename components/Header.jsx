@@ -12,9 +12,10 @@ export default function Header() {
 
   const navItems = [
     { label: "Home", href: "/" },
-    { label: "Faq", href: "/faq" },
+    { label: "Mockups", href: "/logo-mockup" },
     { label: "Projects", href: "/projects" },
     { label: "Contact Me", href: "/contact" },
+    { label: "Faq", href: "/faq" },
   ];
 
   const underlineVariants = {
