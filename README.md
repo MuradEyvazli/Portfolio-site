@@ -20,7 +20,7 @@ Welcome to my personal GitHub portfolio! This project showcases my development w
 
 ## Live Demo
 
-Visit my live portfolio here: [GitHub Portfolio](https://your-live-portfolio-link)
+Visit my live portfolio here: [GitHub Portfolio](https://portfolio-muradeyvazli.netlify.app)
 
 ## Setup
 
